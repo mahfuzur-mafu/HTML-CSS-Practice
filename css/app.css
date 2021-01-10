@@ -1,0 +1,122 @@
+h1 {
+    color: red;
+    /* background: green; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+#first {
+    color: blue;
+    /* background: green; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.first {
+    color: black;
+    /* background: green; */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: orange;
+    padding: 30px;
+    margin: 30px;
+    border: 5px solid green;
+}
+
+.head {
+    color: black;
+    /* background: green; */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: orange;
+    padding: 30px;
+    margin: 30px;
+    border: 5px solid green;
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    background-image: url(./Screenshot\ \(13\).png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 20px 15px 12px red;
+    cursor: pointer;
+    overflow: scroll;
+    opacity: .9;
+    display: block;
+}
+
+p {
+    line-height: 1.5;
+    color: black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.wrapper {
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: 50px;
+    position: relative;
+    transform: rotate(0deg);
+    transform: translate(30px, 50px);
+    transition: background 5s ease;
+}
+
+.wrapper:hover {
+    background: blue;
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: 175px;
+    right: -25px;
+}
+
+.leftin {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: 175px;
+    left: -25px;
+}
+
+.fixed {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.inner2 {
+    width: 50px;
+    height: 50px;
+    background: green;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+}
+
+.zindex {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+}
+
+input:focus {
+    border: 5px solid green;
+}
